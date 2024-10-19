@@ -1,0 +1,30 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 15px; /* Размер основного шрифта в <p></p>  */
+    background-color: #b0eeff; /* Цвет фона веб-страницы */
+    color: #000000; /* Цвет основного текста */ 
+}
+h1 {
+    color: #00ff00; /* Цвет заголовка */
+    font-size: 35px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: rgb(43, 255, 0);
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+
